@@ -1,0 +1,28 @@
+/* Navigation menu */
+nav {
+    display: flex;       /* <-- Add this */
+    align-items: center; /* <-- Add this */
+    justify-content: flex-end; /* <-- Add this to move links to the right */
+    background-color: #00778b; /* Keep background color */
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.home-image {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; /* Smooth movement */
+}
+
+/* When mouse is on image */
+.home-image:hover {
+    transform: scale(1.05); /* Slight zoom */
+}
